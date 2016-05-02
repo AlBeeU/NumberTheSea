@@ -1,0 +1,189 @@
+/*-----------------------------------
+
+   body
+
+-----------------------------------*/
+body {
+  padding-top:70px;
+  padding-bottom: 20px;
+}
+
+/*-----------------------------------
+
+    jumbotron
+
+-----------------------------------*/
+
+.jumbotron-special {
+    background-image: url("../images/whaleJumbotronPic.jpg");
+    background-size: cover;
+   /* If you specify image you cannot put the size after the image url */
+    color: #71AABD;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 30px;
+    height:560px;
+}
+.h1heading {
+    text-align: left;
+}
+
+/*-----------------------------------
+
+    main container/index
+
+-----------------------------------*/
+
+.row-eq-height {
+ /* display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;*/
+  display:         flex;
+ /* display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 30px 0px;
+  word-wrap: break-word;*/
+}
+
+
+.row {
+  margin-bottom: 20px;
+  text-align: center;
+  }
+  
+h2 {
+  font-weight: normal;
+}
+  
+/*------------------------------------
+
+    main container/resources
+    
+------------------------------------*/    
+
+.row .row {
+ margin-bottom: 20px;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.img-circle-at {
+margin-left:100px;
+     
+}
+
+.resourcesHeader {
+    text-align: center;
+    font-size: 45px;
+    
+}
+
+
+/*[class*="col-"] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #eee;
+  background-color: rgba(86,61,124,.15);
+  border: 1px solid #ddd;
+  border: 1px solid rgba(86,61,124,.2);
+}*/
+
+
+/*.row {
+  margin-bottom: 20px;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+*/
+
+
+/*-----------------------------------
+
+    navbar
+
+-----------------------------------*/
+.navbar {
+  background-color: #2ab9e5;
+  color: #fff;
+}
+
+/*-----------------------------------
+
+    header/title games pages
+
+-----------------------------------*/
+
+
+.other-image {
+
+background-image: url("../images/teacher.jpg");
+background-size: cover; 
+height: 550px;
+}  
+
+h3 {
+    padding-right: 300px;    
+    padding-top: 300px;
+    text-align: right;
+    font-family: cursive;
+    font-size: 30px;
+    color: #B5B5B5;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 2px 4px
+}
+
+
+.img-rounded {
+    width: 350px; 
+    height: 275px;
+}
+
+/*-----------------------------------
+
+          footer
+          
+-----------------------------------*/
+
+.footer {
+  position: absolute;
+  bottom: 100;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+  
+}
+
+/*-------------------------------------
+
+    featurette
+    
+------------------------------------*/
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+/*---------------------------------------
+
+   resources page
+   
+----------------------------------------*/
+
+.resourcesHeader {
+    color: #71AABD;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 150px;
+}
+
+
+
+  
